@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+header{
+    width: 100%;
+    padding: 22px 0;
+    background-color: #37474f;
+    border-bottom: 3px solid #f4511e;
+    color: #fafafa;
+    font-family: "Roboto",sans-serif;
+}
+
+header h1{
+    margin: 0 22px;
+}
+.container{
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    min-width: 600px;
+}
+textarea{
+   
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+    border-radius: 6px;
+    resize: none;
+    font-family: "Nunito";
+    font-size: 1.2rem;
+}
+button{
+    padding: 8px 28px;
+    margin: 4px 0 12px 0;
+    border-radius: 4px;
+    background-color: #00b8d4;
+    color: #fafafa;
+    border: none;
+}
+
+.room{
+    border: 1px solid #a2a2a2;
+    border-radius: 4px;
+    padding: 12px;
+}
+.room b{
+    color: #212121;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.room .date{
+    color: #a2a2a2;
+    font-family: 'Nunito',sans-serif;
+    letter-spacing: 0.1rem;
+}
+.room p{
+    padding: 4px 0;
+    font-family: 'Nunito',sans-serif;
+}

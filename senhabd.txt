@@ -1,0 +1,3 @@
+$bancodedados = "univ0095_social";
+$usuario = "univ0095_dseal";
+$senha = "jn(8y#OxN)Mn";

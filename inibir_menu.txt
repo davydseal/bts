@@ -1,0 +1,22 @@
+   <?php
+                                                            
+                                                                 //Verificando se o nickname está disponível
+
+                       $consulta = "SELECT * FROM $table_comentario WHERE usuario = $cod_login";
+                       $resultado_consulta = mysqli_query($mysqli, $consulta);
+                       $quantos_registros = mysqli_num_rows($resultado_consulta);
+
+                       if($quantos_registros == 0)
+                       {
+?>
+                       <?php
+echo "";
+  ?>
+<?php
+                       }
+                       else
+                       {
+echo "<li><a href='filmes_listar.php?pedido=".$vetor_contatos['codigo'] ."'> Excluir </a></li>";
+                       }
+
+                         ?>
