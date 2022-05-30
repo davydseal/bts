@@ -165,7 +165,7 @@ body {
                             <tr>
                                 <td><input type="text" name="c_nickname" placeholder="Login" size="15" class="form-control" name=""> </td>
                        <td><input type="password" name="c_senha" placeholder="Senha" size="15" class="form-control" name=""></td>
-                       <td><button type="submit" class="btn btn-solid">Entrarrr</button></td>
+                       <td><button type="submit" class="btn btn-solid">Entrar</button></td>
                        <td> <a href="registro.php" class="btn btn-solid">Nova conta</a></td>
                             </tr>
                         </table>
